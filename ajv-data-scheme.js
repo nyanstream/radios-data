@@ -26,9 +26,7 @@ export const SCHEME = {
 			required: [
 				"title",
 				"lang",
-				"websiteURL",
 				"streamEndpointURL",
-				"apiEndpointURL",
 			],
 			additionalProperties: false,
 		},
