@@ -1,0 +1,24 @@
+{
+  "name": "radios-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyanstream/radios-data.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nyanstream/radios-data/issues"
+  },
+  "homepage": "https://github.com/nyanstream/radios-data#readme",
+  "scripts": {
+    "build": "node generate",
+	"prettier": "npx prettier --write .\/generate.js"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "4.0.3",
+    "ajv": "8.6.3",
+    "js-yaml": "4.1.0"
+  }
+}
